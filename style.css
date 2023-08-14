@@ -26,6 +26,9 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
 }
+b.tool{
+  color: var(--main-color);
+}
 header {
   position: fixed!important;
   top: 0;
@@ -638,6 +641,8 @@ section {
     opacity: 1;
     z-index: 200;
     overflow: scroll;
+    border: .2rem solid var(--main-color);
+    border-radius: .6rem;
   }
 }
 /* Footer */
